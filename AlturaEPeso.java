@@ -15,7 +15,7 @@ public class AlturaEPeso {
 		double peso = leitor.nextDouble();
 		
 		double imc = peso / (altura * altura);
-		System.out.println("Seu IMC é %.2f", imc");
+		System.out.printf("Seu IMC é %.2f", imc");
 		
 	    
 		leitor.close();
